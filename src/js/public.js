@@ -54,4 +54,7 @@ function bindHtml (res){
   }
   ul.innerHTML = str
   ul.classList.add('active')
+  $('.xialacanp').on('click',function() {
+    window.location.href = '../pages/list.html'
+  })
 }
