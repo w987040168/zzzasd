@@ -1,0 +1,330 @@
+.pdpBox{
+    .pdp{
+        width: 1200px;
+        margin: 20px auto 0;
+        .pdBreadcrumb{
+            width: 1200px;
+            height: 30px;
+            // background-color: blue;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            color: #999;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            >span{
+                span{
+                    &:nth-of-type(2){
+                        margin: 0 9px;
+                        font-weight: 700;
+                        color: #c0c4cc;
+                    }
+                }
+            }
+        }
+        .pdp-header{
+            display: flex;
+            margin-bottom: 70px;
+            
+            .pdpImages{
+                width: 430px;
+                margin-right: 40px;
+                height: 510px;
+                position: relative;
+                // background-color: blue;
+                .pdpImages-bigImages{
+                    width: 431px;
+                    height: 431px;
+                    margin-bottom: 10px;
+                    background-color: burlywood;
+                    position: relative;
+                    img{
+                        width: 431px;
+                        height: 431px;
+                    }
+                    .mask{
+                        width: 143px;
+                        height: 143px;
+                        background-color: rgba(0,0,0,.5);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: none;
+                    }
+                }
+                .pdpImages-smallImages-box{
+                    width: 100%;
+                    height: 70px;
+                    background-color: rgb(243, 246, 247);
+                    display: flex;
+                    position: relative;
+                    justify-content: center;
+                    .pdpImages-smalls{
+                        width: 391px;
+                        display: flex;
+                        .pdpImages-small{
+                            width: 70px;
+                            height: 70px;
+                            margin-right: 10px;
+                            background-color: chartreuse;
+                            img{
+                                width: 70px;
+                                height: 70px;
+                            }
+                        }
+                    }
+                }
+                .pdpImages-maximg{
+                    display: none;
+                    width: 431px;
+                    min-height: 431px;
+                    background-color: salmon;
+                    position: absolute;
+                    top: 0;
+                    left: 108%;
+                    z-index: 3;
+                    overflow: hidden;
+                    
+                    img{
+                        position: absolute;
+                        width: 200%;
+                        height: 200%;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+            }
+            .pdpInfo{
+                width: 730px;
+                height: 510px;
+                // background-color: brown;
+                p{
+                    &:nth-of-type(1){
+                        font-size: 20px;
+                        color: #333;
+                        font-weight: 700;
+                        margin-bottom: 3px;
+                        height: 27px;
+                        line-height: 27px;
+                    }
+                    &:nth-of-type(2){
+                        color: #999;
+                        font-size: 14px;
+                        margin: 0 0 3px 0;
+                        line-height: 20px;
+                    }
+                }
+                .pdpInfo-activity{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0 20px;
+                    color: #fff;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    margin-bottom: 10px;
+                    background-color: #d1b874;
+                    box-sizing: border-box;
+                }
+                .pdpInfo-item{
+                    width: 730px;
+                    display: flex;
+                    height: 42px;
+                    margin-bottom: 20px;
+                    // background-color: chartreuse;
+                    .pdpInfo-item-left{
+                        display: flex;
+                        align-items: center;
+                        width: 565px;
+                        .name{
+                            font-size: 14px;
+                            color: #666;
+                            width: 45px;
+                            margin-right: 20px;
+
+                        }
+                        .symbol{
+                            font-size: 20px;
+                            color: #de3e26;
+                            margin-right: 5px;
+                        }
+                        .price{
+                            color: #de3e26;
+                            font-size: 32px;
+                            font-weight: 700;
+                            margin-right: 10px;
+                        }
+
+                        
+                    }
+                    .pdpInfo-item-right{
+                        display: flex;
+                        align-items: center;
+                        width: 165px;
+                        border-left: 1px solid #ccc;
+                        span{
+                            margin-left: 30px;
+                            color: #333;
+                            font-size: 14px;
+                            
+                        }
+                    }
+                }
+                .pdpInfo-service{
+                    width: 565px;
+                    display: flex;
+                    margin-bottom: 20px;
+                    height: 45px;
+                    // background-color: chartreuse;
+                    .pdpInfo-service-left{
+                        width: 65px;
+                        height: 46px;
+                        .nname{
+                            font-size: 14px;
+                            color: #666;
+                            width: 45px;
+
+                        }
+                    }
+                    .pdpInfo-service-right{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        justify-content: flex-start;
+                        flex-wrap: wrap;
+                        .pdpInfo-service-right-item{
+                            display: flex;
+                            align-items: center;
+                            width: 165px;
+                            margin: 0 0 5px 0;
+                            span{
+                                color: #333;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .pdpInfo-limit{
+                    color: #333;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    .pdpInfo-limit-name{
+                        color: #666;
+                        width: 45px;
+                        margin-right: 20px;
+
+                    }
+                }
+                .pdpInfo-guige{
+                    width: 565px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    .pdpInfo-guige-left{
+                        div{
+                            font-size: 14px;
+                            color: #666;
+                            width: 45px;
+                            margin-right: 20px;
+                        }
+                    }
+                    .pdpInfo-guige-right{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        flex-wrap: wrap;
+                        .pdpInfo-guige-right-img{
+                            width: 50px;
+                            height: 50px;
+                            cursor: pointer;
+                            margin: 10px;
+                            background-color: chocolate;
+                            img{
+                                width: 50px;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+                .pdpInfo-shuliang{
+                    display: flex;
+                    width: 730px;
+                    justify-content: flex-start;
+                    margin-bottom: 20px;
+                    .pdpInfo-shuliang-left{
+                        font-size: 14px;
+                        color: #666;
+                        width: 45px;
+                        margin-right: 20px;
+                    }
+                    .pdpInfo-shuliang-right{
+                        width: 130px;
+                        line-height: 30px;
+                        // background-color: chocolate;
+                        display: flex;
+                        align-self: start;
+                        justify-content: space-between;
+                        
+                        span{
+                            width: 32px;
+                            font-size: 13px;
+                            border-radius: 0 4px 0 4px ;
+                            border-left: 1px solid #dcdfe6;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #f5f7fa;
+                            
+                        }
+                        .el-input{
+                            width: 100%;
+                            height: 28px;
+                            display: flex;
+                            // background-color: cornflowerblue;
+                            input{
+                                width: 100%;
+                                height: 28px;
+                                border: 1px solid #dcdfe6;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                .pdpInfo-item-button{
+                    display: flex;
+                    
+                    button{
+                        width: 150px;
+                        height: 50px;
+                        font-size: 18px;
+                        &:nth-of-type(1){
+                            background-color: #fbe3df;
+                            color: #de3e26;
+                            border: 1px solid #de3e26;
+                            span{
+                                font-size: 18px;
+                            }
+                        }
+                        &:nth-of-type(2){
+                            a{
+                        color: #fff;
+                    }
+                            background-color: #de3e26;
+                            color: #fff;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

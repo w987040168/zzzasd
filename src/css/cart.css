@@ -1,0 +1,220 @@
+.shoppingCartBox {
+  width: 1200px;
+  margin: 20px auto 70px;
+  min-height: 220px;
+}
+.shoppingCartBox .noShopping {
+  display: none;
+  margin-top: 10px;
+  padding: 100px 20px;
+  width: 1158px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.shoppingCartBox .noShopping img {
+  margin-bottom: 30px;
+}
+.shoppingCartBox .noShopping p {
+  text-align: center;
+  color: #979797;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.shoppingCartBox .noShopping a button {
+  width: 130px;
+  height: 36px;
+  color: #fff;
+  background-color: #f56c6c;
+  cursor: pointer;
+  border: 1px solid #f56c6c;
+}
+.shoppingCartBox .shopping {
+  display: none;
+}
+.shoppingCartBox .shopping .shopping-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1178px;
+  height: 58px;
+  background-color: whitesmoke;
+  color: #333333;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-info {
+  width: 450px;
+  max-height: 60px;
+  display: inline-block;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-info .el-checkbox {
+  width: 60px;
+  color: gray;
+  cursor: pointer;
+  display: inline-block;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-info .el-checkbox span input {
+  width: 14px;
+  height: 14px;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-info .el-checkbox span:nth-of-type(2) {
+  padding-left: 10px;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-info .text {
+  margin-left: 120px;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-unitPrice {
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-unitPrice span {
+  font-size: 14px;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-num {
+  width: 225px;
+  display: inline-block;
+  text-align: center;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-xiaoji {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+.shoppingCartBox .shopping .shopping-header .shopping-header-caozuo {
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+}
+.shoppingCartBox .shopping .shopping-list {
+  margin-top: 10px;
+  width: 1158px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item {
+  padding: 30px 0;
+  border-bottom: 1px dotted #e6e6e6;
+  display: flex;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info {
+  width: 450px;
+  display: flex;
+  align-items: center;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info input {
+  width: 14px;
+  height: 14px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info > span {
+  width: 100px;
+  height: 100px;
+  margin: 0 25px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info > span img {
+  width: 100px;
+  height: 100px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info .item-text {
+  width: 256px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info .item-text span {
+  display: inline-block;
+  color: #333333;
+  font-size: 18px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info .item-text span:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-info .item-text span:nth-of-type(2) {
+  font-size: 14px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-price {
+  width: 180px;
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  line-height: 100px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-asBox {
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-asBox span {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  background-color: #dcdee4;
+  justify-content: center;
+  align-items: center;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-asBox input {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dcdfe6;
+  height: 28px;
+  text-align: center;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-zj {
+  width: 200px;
+  text-align: center;
+  line-height: 100px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-cz {
+  width: 70px;
+  text-align: center;
+  line-height: 100px;
+}
+.shoppingCartBox .shopping .shopping-list .shopping-list-item .p-cz span {
+  color: #f56c6c;
+}
+.shoppingCartBox .shopping .shopping-bottom {
+  display: flex;
+  width: 1158px;
+  height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 0 20px;
+  border: 1px solid #dddddd;
+  margin: 10px 0 20px;
+}
+.shoppingCartBox .shopping .shopping-bottom .shopping-bottom-left .br-info span {
+  color: #f56c6c;
+}
+.shoppingCartBox .shopping .shopping-bottom .shopping-bottom-right {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 40px;
+}
+.shoppingCartBox .shopping .shopping-bottom .shopping-bottom-right > span:nth-of-type(1) {
+  color: #333333;
+  font-size: 14px;
+  margin-right: 40px;
+  font-weight: 700;
+}
+.shoppingCartBox .shopping .shopping-bottom .shopping-bottom-right > span:nth-of-type(2) {
+  color: #dc3d26;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.shoppingCartBox .shopping .shopping-bottom .shopping-bottom-right button {
+  cursor: pointer;
+  background-color: #de3e26;
+  color: white;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+}
+.shoppingCartBox .active {
+  display: block;
+}
+
+/*# sourceMappingURL=cart.css.map */
