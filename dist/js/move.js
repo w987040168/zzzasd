@@ -1,0 +1,1 @@
+"use strict";function move(a,n,i){var r,c=0;for(r in n)!function(){c++;var o=setInterval(function(){var t="opactity"===r?100*window.getComputedStyle(a)[r].opacity:parseInt(window.getComputedStyle(a)[r]),e=0<(e=(n[r]-t)/10)?Math.ceil(e):Math.floor(e);n[r]===t?(c--,clearInterval(o),0===c&&i()):a.style[r]="opactity"===r?(t+e)/100:t+e+"px"},20)}()}
